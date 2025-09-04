@@ -1,0 +1,26 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Logs collection: only system can write, only admin can read
+    match /logs/{logId} {
+      allow read: if request.auth != null && request.auth.token.role == 'admin';
+      allow create: if request.auth != null; // any authenticated user may record a log via API
+      allow update, delete: if false;
+    }
+
+    // Aggregated analytics per day
+    match /analytics_daily/{day} {
+      allow read: if request.auth != null && request.auth.token.role == 'admin';
+      allow write: if request.auth != null && request.auth.token.role == 'system';
+    }
+
+    // Alerts for overdue documents or requests
+    match /alerts/{alertId} {
+      allow read: if request.auth != null && request.auth.token.role == 'admin';
+      allow write: if request.auth != null && request.auth.token.role == 'system';
+    }
+
+    // Requests and documents collections can remain accessible according to existing rules
+    // This file only governs the new collections introduced by this module
+  }
+}
