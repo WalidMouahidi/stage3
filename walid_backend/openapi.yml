@@ -1,0 +1,143 @@
+openapi: 3.0.1
+info:
+  title: Journalisation, Statistiques & Alertes API
+  description: API pour enregistrer des logs et récupérer des statistiques pour le tableau de bord d'administration.
+  version: 1.0.0
+servers:
+  - url: https://<REGION>-<PROJECT_ID>.cloudfunctions.net/api
+    description: Instance déployée sur Firebase Functions
+paths:
+  /admin/stats:
+    get:
+      summary: Retourne les indicateurs globaux pour le tableau de bord admin.
+      description: |
+        Cette route calcule et renvoie le nombre total de documents téléversés et générés,
+        le nombre de demandes en attente, validées et rejetées, ainsi que des séries temporelles
+        par jour pour les trente derniers jours. L'appel nécessite un jeton d'authentification
+        porteur (role admin).
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Succès.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  totals:
+                    type: object
+                    properties:
+                      uploadedDocuments:
+                        type: integer
+                      generatedDocuments:
+                        type: integer
+                      pendingRequests:
+                        type: integer
+                      approvedRequests:
+                        type: integer
+                      rejectedRequests:
+                        type: integer
+                  trends:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        date:
+                          type: string
+                          format: date
+                        uploads:
+                          type: integer
+                        generations:
+                          type: integer
+                        pending:
+                          type: integer
+                        approved:
+                          type: integer
+                        rejected:
+                          type: integer
+        '401':
+          description: Authentification requise.
+  /admin/logs:
+    get:
+      summary: Liste les entrées du journal.
+      description: |
+        Retourne les actions sensibles enregistrées dans la collection `logs`. Les paramètres
+        facultatifs `userId`, `startDate` et `endDate` permettent de filtrer les résultats. L'appel
+        nécessite un jeton d'authentification porteur (role admin).
+      parameters:
+        - in: query
+          name: userId
+          schema:
+            type: string
+          description: Filtrer les logs par identifiant utilisateur.
+        - in: query
+          name: startDate
+          schema:
+            type: string
+            format: date-time
+          description: Filtrer les logs après cette date (ISO8601).
+        - in: query
+          name: endDate
+          schema:
+            type: string
+            format: date-time
+          description: Filtrer les logs avant cette date (ISO8601).
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Liste des logs.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: string
+                    userId:
+                      type: string
+                    action:
+                      type: string
+                    timestamp:
+                      type: string
+                      format: date-time
+                    ip:
+                      type: string
+        '401':
+          description: Authentification requise.
+  /logs:
+    post:
+      summary: Enregistre une nouvelle entrée de journal.
+      description: |
+        Permet à l'application ou à l'interface web de créer manuellement un log. Un corps JSON avec
+        l'action, l'utilisateur et éventuellement d'autres métadonnées est attendu. L'appel
+        nécessite une authentification utilisateur standard.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - action
+              properties:
+                action:
+                  type: string
+                  description: Type d'action (login, download, generate, delete, etc.).
+                metadata:
+                  type: object
+                  additionalProperties: true
+      responses:
+        '201':
+          description: Entrée créée avec succès.
+        '400':
+          description: Requête invalide.
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
