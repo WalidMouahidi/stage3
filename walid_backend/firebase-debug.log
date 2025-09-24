@@ -1,47 +1,47 @@
-[debug] [2025-09-24T06:28:12.551Z] ----------------------------------------------------------------------
-[debug] [2025-09-24T06:28:12.554Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SetupGame\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions,firestore
-[debug] [2025-09-24T06:28:12.554Z] CLI Version:   14.17.0
-[debug] [2025-09-24T06:28:12.554Z] Platform:      win32
-[debug] [2025-09-24T06:28:12.554Z] Node Version:  v20.17.0
-[debug] [2025-09-24T06:28:12.555Z] Time:          Wed Sep 24 2025 08:28:12 GMT+0200 (heure d’été d’Europe centrale)
-[debug] [2025-09-24T06:28:12.555Z] ----------------------------------------------------------------------
+[debug] [2025-09-24T07:48:23.649Z] ----------------------------------------------------------------------
+[debug] [2025-09-24T07:48:23.651Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\SetupGame\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions,firestore
+[debug] [2025-09-24T07:48:23.651Z] CLI Version:   14.17.0
+[debug] [2025-09-24T07:48:23.652Z] Platform:      win32
+[debug] [2025-09-24T07:48:23.652Z] Node Version:  v20.17.0
+[debug] [2025-09-24T07:48:23.652Z] Time:          Wed Sep 24 2025 09:48:23 GMT+0200 (heure d’été d’Europe centrale)
+[debug] [2025-09-24T07:48:23.652Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2025-09-24T06:28:12.761Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2025-09-24T06:28:12.762Z] > authorizing via signed-in user (mouahidiwalid@gmail.com)
-[debug] [2025-09-24T06:28:12.809Z] openjdk version "17.0.16" 2025-07-15
+[debug] [2025-09-24T07:48:23.869Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-09-24T07:48:23.869Z] > authorizing via signed-in user (mouahidiwalid@gmail.com)
+[debug] [2025-09-24T07:48:23.920Z] openjdk version "17.0.16" 2025-07-15
 
-[debug] [2025-09-24T06:28:12.810Z] OpenJDK Runtime Environment Temurin-17.0.16+8 (build 17.0.16+8)
+[debug] [2025-09-24T07:48:23.921Z] OpenJDK Runtime Environment Temurin-17.0.16+8 (build 17.0.16+8)
 OpenJDK 64-Bit Server VM Temurin-17.0.16+8 (build 17.0.16+8, mixed mode, sharing)
 
-[debug] [2025-09-24T06:28:12.828Z] Parsed Java major version: 17
+[debug] [2025-09-24T07:48:23.939Z] Parsed Java major version: 17
 [info] i  emulators: Starting emulators: functions, firestore {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, firestore"}}
-[debug] [2025-09-24T06:28:12.837Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2025-09-24T06:28:12.837Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2025-09-24T06:28:12.837Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2025-09-24T06:28:12.837Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8090}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}]},"metadata":{"message":"assigned listening specs for emulators"}}
-[debug] [2025-09-24T06:28:12.841Z] Emulator locator file path: C:\Users\SETUPG~1\AppData\Local\Temp\hub-walid-backend.json
-[debug] [2025-09-24T06:28:12.842Z] [hub] writing locator at C:\Users\SETUPG~1\AppData\Local\Temp\hub-walid-backend.json
-[debug] [2025-09-24T06:28:12.853Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2025-09-24T06:28:12.853Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2025-09-24T06:28:12.853Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2025-09-24T06:28:12.853Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8090}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5002}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[debug] [2025-09-24T07:48:23.949Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-09-24T07:48:23.949Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-09-24T07:48:23.949Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-09-24T07:48:23.949Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8090}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-09-24T07:48:23.953Z] Emulator locator file path: C:\Users\SETUPG~1\AppData\Local\Temp\hub-walid-backend.json
+[debug] [2025-09-24T07:48:23.953Z] [hub] writing locator at C:\Users\SETUPG~1\AppData\Local\Temp\hub-walid-backend.json
+[debug] [2025-09-24T07:48:23.967Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-09-24T07:48:23.967Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-09-24T07:48:23.967Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-09-24T07:48:23.967Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8090}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5002}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
 [warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: apphosting, auth, database, hosting, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mapphosting, auth, database, hosting, pubsub, storage, dataconnect\u001b[22m"}}
-[debug] [2025-09-24T06:28:12.864Z] defaultcredentials: writing to file C:\Users\SetupGame\AppData\Roaming\firebase\mouahidiwalid_gmail_com_application_default_credentials.json
-[debug] [2025-09-24T06:28:12.865Z] Setting GAC to C:\Users\SetupGame\AppData\Roaming\firebase\mouahidiwalid_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\SetupGame\\AppData\\Roaming\\firebase\\mouahidiwalid_gmail_com_application_default_credentials.json"}}
-[debug] [2025-09-24T06:28:12.866Z] Checked if tokens are valid: true, expires at: 1758697453232
-[debug] [2025-09-24T06:28:12.866Z] Checked if tokens are valid: true, expires at: 1758697453232
-[debug] [2025-09-24T06:28:12.866Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/walid-backend/adminSdkConfig [none]
-[debug] [2025-09-24T06:28:13.193Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/walid-backend/adminSdkConfig 200
-[debug] [2025-09-24T06:28:13.194Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/walid-backend/adminSdkConfig {"projectId":"walid-backend","storageBucket":"walid-backend.firebasestorage.app"}
-[debug] [2025-09-24T06:28:13.206Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
-[debug] [2025-09-24T06:28:13.206Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
-[debug] [2025-09-24T06:28:13.207Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\SetupGame\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.19.8.jar","--host","127.0.0.1","--port",8090,"--websocket_port",9150,"--project_id","walid-backend","--rules","C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend\\firestore.rules","--single_project_mode",true,"--functions_emulator","127.0.0.1:5002"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false,"shell":false,"port":8090} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\SetupGame\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.19.8.jar\",\"--host\",\"127.0.0.1\",\"--port\",8090,\"--websocket_port\",9150,\"--project_id\",\"walid-backend\",\"--rules\",\"C:\\\\Users\\\\SetupGame\\\\Desktop\\\\Work\\\\Nouveau dossier\\\\walid_backend\\\\firestore.rules\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5002\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false,\"shell\":false,\"port\":8090}"}}
+[debug] [2025-09-24T07:48:23.978Z] defaultcredentials: writing to file C:\Users\SetupGame\AppData\Roaming\firebase\mouahidiwalid_gmail_com_application_default_credentials.json
+[debug] [2025-09-24T07:48:23.979Z] Setting GAC to C:\Users\SetupGame\AppData\Roaming\firebase\mouahidiwalid_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\SetupGame\\AppData\\Roaming\\firebase\\mouahidiwalid_gmail_com_application_default_credentials.json"}}
+[debug] [2025-09-24T07:48:23.980Z] Checked if tokens are valid: true, expires at: 1758703433251
+[debug] [2025-09-24T07:48:23.980Z] Checked if tokens are valid: true, expires at: 1758703433251
+[debug] [2025-09-24T07:48:23.981Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/walid-backend/adminSdkConfig [none]
+[debug] [2025-09-24T07:48:24.287Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/walid-backend/adminSdkConfig 200
+[debug] [2025-09-24T07:48:24.287Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/walid-backend/adminSdkConfig {"projectId":"walid-backend","storageBucket":"walid-backend.firebasestorage.app"}
+[debug] [2025-09-24T07:48:24.307Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2025-09-24T07:48:24.308Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2025-09-24T07:48:24.308Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\SetupGame\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.19.8.jar","--host","127.0.0.1","--port",8090,"--websocket_port",9150,"--project_id","walid-backend","--rules","C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend\\firestore.rules","--single_project_mode",true,"--functions_emulator","127.0.0.1:5002"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false,"shell":false,"port":8090} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\SetupGame\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.19.8.jar\",\"--host\",\"127.0.0.1\",\"--port\",8090,\"--websocket_port\",9150,\"--project_id\",\"walid-backend\",\"--rules\",\"C:\\\\Users\\\\SetupGame\\\\Desktop\\\\Work\\\\Nouveau dossier\\\\walid_backend\\\\firestore.rules\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5002\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false,\"shell\":false,\"port\":8090}"}}
 [info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
-[debug] [2025-09-24T06:28:14.309Z] Sep 24, 2025 8:28:14 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start
+[debug] [2025-09-24T07:48:25.958Z] Sep 24, 2025 9:48:25 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start
 INFO: Started WebSocket server on ws://127.0.0.1:9150
- {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 24, 2025 8:28:14 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start\r\nINFO: Started WebSocket server on ws://127.0.0.1:9150\r\n"}}
-[debug] [2025-09-24T06:28:14.368Z] API endpoint: http:// {"metadata":{"emulator":{"name":"firestore"},"message":"API endpoint: http://"}}
-[debug] [2025-09-24T06:28:14.368Z] 127.0.0.1:8090
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 24, 2025 9:48:25 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start\r\nINFO: Started WebSocket server on ws://127.0.0.1:9150\r\n"}}
+[debug] [2025-09-24T07:48:26.080Z] API endpoint: http:// {"metadata":{"emulator":{"name":"firestore"},"message":"API endpoint: http://"}}
+[debug] [2025-09-24T07:48:26.081Z] 127.0.0.1:8090
 If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
 
    export FIRESTORE_EMULATOR_HOST=127.0.0.1:8090
@@ -57,10 +57,10 @@ Dev App Server is now running.
 [info] +  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
 [warn] !  emulators: The Emulator UI is not starting because none of the running emulators have a UI component. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting because none of the running emulators have a UI component."}}
 [info] i  functions: Watching "C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend\" for Cloud Functions..."}}
-[debug] [2025-09-24T06:28:14.450Z] Validating nodejs source
+[debug] [2025-09-24T07:48:26.162Z] Validating nodejs source
 [warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
 [warn] !  functions: Please note that there will be breaking changes when you upgrade. 
-[debug] [2025-09-24T06:28:15.228Z] > [functions] package.json contents: {
+[debug] [2025-09-24T07:48:27.086Z] > [functions] package.json contents: {
   "name": "walid-backend",
   "version": "1.0.0",
   "description": "Backend module for journalisation, statistics and alerts for the administrative dashboard.",
@@ -69,7 +69,8 @@ Dev App Server is now running.
   "scripts": {
     "build": "tsc",
     "lint": "eslint . --ext .ts",
-    "start": "npm run build && firebase emulators:start --only functions",
+    "start": "npm run build && npx firebase emulators:start --only functions,firestore",
+    "start-functions-only": "npm run build && npx firebase emulators:start --only functions",
     "test": "jest --runInBand",
     "deploy": "npm run build && firebase deploy --only functions,firestore:rules,firestore:indexes"
   },
@@ -96,9 +97,708 @@ Dev App Server is now running.
     "typescript": "^5.3.3"
   }
 }
-[debug] [2025-09-24T06:28:15.229Z] Building nodejs source
-[debug] [2025-09-24T06:28:15.229Z] Failed to find version of module node: reached end of search path C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\node_modules
+[debug] [2025-09-24T07:48:27.087Z] Building nodejs source
+[debug] [2025-09-24T07:48:27.087Z] Failed to find version of module node: reached end of search path C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\node_modules
 [info] +  functions: Using node@20 from host. 
 [info] i  functions: You are using a version of firebase-functions SDK (4.9.0) that does not have support for the newest Firebase Extensions features. Please update firebase-functions SDK to >=5.1.0 to use them correctly 
-[debug] [2025-09-24T06:28:15.231Z] Could not find functions.yaml. Must use http discovery
-[debug] [2025-09-24T06:28:15.238Z] Found firebase-functions binary at 'C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\node_modules\.bin\firebase-functions'
+[debug] [2025-09-24T07:48:27.089Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-09-24T07:48:27.096Z] Found firebase-functions binary at 'C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\node_modules\.bin\firebase-functions'
+[info] Serving at port 8757
+
+[debug] [2025-09-24T07:48:27.570Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"},"logRequestStatusChange":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.write","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/requests/{requestId}"},"retry":false},"labels":{},"entryPoint":"logRequestStatusChange"},"documentAnalytics":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/documents/{docId}"},"retry":false},"labels":{},"entryPoint":"documentAnalytics"},"requestAnalytics":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.write","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/requests/{requestId}"},"retry":false},"labels":{},"entryPoint":"requestAnalytics"},"alertChecker":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"scheduleTrigger":{"schedule":"every 24 hours","retryConfig":{"retryCount":null,"maxDoublings":null,"maxRetryDuration":null,"maxBackoffDuration":null,"minBackoffDuration":null},"timeZone":null},"labels":{},"entryPoint":"alertChecker"}},"specVersion":"v1alpha1","requiredAPIs":[{"api":"cloudscheduler.googleapis.com","reason":"Needed for scheduled functions."}]}
+[info] +  functions: Loaded functions definitions from source: api, logRequestStatusChange, documentAnalytics, requestAnalytics, alertChecker. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api, logRequestStatusChange, documentAnalytics, requestAnalytics, alertChecker."}}
+[info] +  functions[us-central1-api]: http function initialized (http://127.0.0.1:5002/walid-backend/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5002/walid-backend/us-central1/api)."}}
+[debug] [2025-09-24T07:48:32.613Z] addFirestoreTrigger "{\"eventTrigger\":{\"eventType\":\"providers/cloud.firestore/eventTypes/document.write\",\"resource\":\"projects/walid-backend/databases/(default)/documents/requests/{requestId}\",\"service\":\"firestore.googleapis.com\"}}"
+[debug] [2025-09-24T07:48:32.613Z] >>> [apiv2][query] PUT http://127.0.0.1:8090/emulator/v1/projects/walid-backend/triggers/us-central1-logRequestStatusChange-0 [none]
+[debug] [2025-09-24T07:48:32.613Z] >>> [apiv2][body] PUT http://127.0.0.1:8090/emulator/v1/projects/walid-backend/triggers/us-central1-logRequestStatusChange-0 "{\"eventTrigger\":{\"eventType\":\"providers/cloud.firestore/eventTypes/document.write\",\"resource\":\"projects/walid-backend/databases/(default)/documents/requests/{requestId}\",\"service\":\"firestore.googleapis.com\"}}"
+[debug] [2025-09-24T07:48:32.651Z] Sep 24, 2025 9:48:32 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 24, 2025 9:48:32 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected non-HTTP/2 connection.\r\n"}}
+[debug] [2025-09-24T07:48:33.464Z] Sep 24, 2025 9:48:33 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected HTTP/2 connection.
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 24, 2025 9:48:33 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead\r\nINFO: Detected HTTP/2 connection.\r\n"}}
+[debug] [2025-09-24T07:48:34.567Z] <<< [apiv2][status] PUT http://127.0.0.1:8090/emulator/v1/projects/walid-backend/triggers/us-central1-logRequestStatusChange-0 200
+[debug] [2025-09-24T07:48:34.567Z] <<< [apiv2][body] PUT http://127.0.0.1:8090/emulator/v1/projects/walid-backend/triggers/us-central1-logRequestStatusChange-0 {}
+[info] +  functions[us-central1-logRequestStatusChange]: firestore function initialized. {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mfirestore\u001b[22m function initialized."}}
+[debug] [2025-09-24T07:48:34.568Z] addFirestoreTrigger "{\"eventTrigger\":{\"eventType\":\"providers/cloud.firestore/eventTypes/document.create\",\"resource\":\"projects/walid-backend/databases/(default)/documents/documents/{docId}\",\"service\":\"firestore.googleapis.com\"}}"
+[debug] [2025-09-24T07:48:34.568Z] >>> [apiv2][query] PUT http://127.0.0.1:8090/emulator/v1/projects/walid-backend/triggers/us-central1-documentAnalytics-0 [none]
+[debug] [2025-09-24T07:48:34.568Z] >>> [apiv2][body] PUT http://127.0.0.1:8090/emulator/v1/projects/walid-backend/triggers/us-central1-documentAnalytics-0 "{\"eventTrigger\":{\"eventType\":\"providers/cloud.firestore/eventTypes/document.create\",\"resource\":\"projects/walid-backend/databases/(default)/documents/documents/{docId}\",\"service\":\"firestore.googleapis.com\"}}"
+[debug] [2025-09-24T07:48:34.577Z] <<< [apiv2][status] PUT http://127.0.0.1:8090/emulator/v1/projects/walid-backend/triggers/us-central1-documentAnalytics-0 200
+[debug] [2025-09-24T07:48:34.578Z] <<< [apiv2][body] PUT http://127.0.0.1:8090/emulator/v1/projects/walid-backend/triggers/us-central1-documentAnalytics-0 {}
+[info] +  functions[us-central1-documentAnalytics]: firestore function initialized. {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mfirestore\u001b[22m function initialized."}}
+[debug] [2025-09-24T07:48:34.578Z] addFirestoreTrigger "{\"eventTrigger\":{\"eventType\":\"providers/cloud.firestore/eventTypes/document.write\",\"resource\":\"projects/walid-backend/databases/(default)/documents/requests/{requestId}\",\"service\":\"firestore.googleapis.com\"}}"
+[debug] [2025-09-24T07:48:34.579Z] >>> [apiv2][query] PUT http://127.0.0.1:8090/emulator/v1/projects/walid-backend/triggers/us-central1-requestAnalytics-0 [none]
+[debug] [2025-09-24T07:48:34.579Z] >>> [apiv2][body] PUT http://127.0.0.1:8090/emulator/v1/projects/walid-backend/triggers/us-central1-requestAnalytics-0 "{\"eventTrigger\":{\"eventType\":\"providers/cloud.firestore/eventTypes/document.write\",\"resource\":\"projects/walid-backend/databases/(default)/documents/requests/{requestId}\",\"service\":\"firestore.googleapis.com\"}}"
+[debug] [2025-09-24T07:48:34.587Z] <<< [apiv2][status] PUT http://127.0.0.1:8090/emulator/v1/projects/walid-backend/triggers/us-central1-requestAnalytics-0 200
+[debug] [2025-09-24T07:48:34.587Z] <<< [apiv2][body] PUT http://127.0.0.1:8090/emulator/v1/projects/walid-backend/triggers/us-central1-requestAnalytics-0 {}
+[info] +  functions[us-central1-requestAnalytics]: firestore function initialized. {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mfirestore\u001b[22m function initialized."}}
+[info] i  functions[us-central1-alertChecker]: function ignored because the pubsub emulator does not exist or is not running. {"metadata":{"emulator":{"name":"functions"},"message":"function ignored because the pubsub emulator does not exist or is not running."}}
+[debug] [2025-09-24T07:48:34.594Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┐
+│ Emulator  │ Host:Port      │
+├───────────┼────────────────┤
+│ Functions │ 127.0.0.1:5002 │
+├───────────┼────────────────┤
+│ Firestore │ 127.0.0.1:8090 │
+└───────────┴────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500, 9150
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2025-09-24T07:48:50.515Z] File C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\package.json changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend\\package.json changed, reloading triggers"}}
+[debug] [2025-09-24T07:48:51.519Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2025-09-24T07:48:52.304Z] > [functions] package.json contents: {
+  "name": "walid-backend",
+  "version": "1.0.0",
+  "description": "Backend module for journalisation, statistics and alerts for the administrative dashboard.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "start": "npm run build && npx firebase emulators:start --only functions,firestore",
+    "start-functions-only": "npm run build && npx firebase emulators:start --only functions",
+    "test": "jest --runInBand",
+    "deploy": "npm run build && firebase deploy --only functions,firestore:rules,firestore:indexes"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "firebase-admin": "^11.10.0",
+    "firebase-functions": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.2.5",
+    "@types/node": "^20.5.7",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "firebase-functions-test": "^3.0.2",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.0",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.3.3"
+  }
+}
+[debug] [2025-09-24T07:48:52.304Z] Building nodejs source
+[debug] [2025-09-24T07:48:52.304Z] Failed to find version of module node: reached end of search path C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\node_modules
+[info] +  functions: Using node@20 from host. 
+[info] i  functions: You are using a version of firebase-functions SDK (4.9.0) that does not have support for the newest Firebase Extensions features. Please update firebase-functions SDK to >=5.1.0 to use them correctly 
+[debug] [2025-09-24T07:48:52.306Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-09-24T07:48:52.312Z] Found firebase-functions binary at 'C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\node_modules\.bin\firebase-functions'
+[info] Serving at port 9000
+
+[debug] [2025-09-24T07:48:52.760Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"},"logRequestStatusChange":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.write","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/requests/{requestId}"},"retry":false},"labels":{},"entryPoint":"logRequestStatusChange"},"documentAnalytics":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/documents/{docId}"},"retry":false},"labels":{},"entryPoint":"documentAnalytics"},"requestAnalytics":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.write","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/requests/{requestId}"},"retry":false},"labels":{},"entryPoint":"requestAnalytics"},"alertChecker":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"scheduleTrigger":{"schedule":"every 24 hours","retryConfig":{"retryCount":null,"maxDoublings":null,"maxRetryDuration":null,"maxBackoffDuration":null,"minBackoffDuration":null},"timeZone":null},"labels":{},"entryPoint":"alertChecker"}},"specVersion":"v1alpha1","requiredAPIs":[{"api":"cloudscheduler.googleapis.com","reason":"Needed for scheduled functions."}]}
+[info] +  functions: Loaded functions definitions from source: api, logRequestStatusChange, documentAnalytics, requestAnalytics, alertChecker. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api, logRequestStatusChange, documentAnalytics, requestAnalytics, alertChecker."}}
+[debug] [2025-09-24T08:16:35.679Z] File C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\src\stats.ts changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend\\src\\stats.ts changed, reloading triggers"}}
+[debug] [2025-09-24T08:16:35.896Z] File C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\src\stats.ts changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend\\src\\stats.ts changed, reloading triggers"}}
+[debug] [2025-09-24T08:16:37.371Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2025-09-24T08:16:44.202Z] > [functions] package.json contents: {
+  "name": "walid-backend",
+  "version": "1.0.0",
+  "description": "Backend module for journalisation, statistics and alerts for the administrative dashboard.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "start": "npm run build && npx firebase emulators:start --only functions,firestore",
+    "start-functions-only": "npm run build && npx firebase emulators:start --only functions",
+    "test": "jest --runInBand",
+    "deploy": "npm run build && firebase deploy --only functions,firestore:rules,firestore:indexes"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "firebase-admin": "^11.10.0",
+    "firebase-functions": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.2.5",
+    "@types/node": "^20.5.7",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "firebase-functions-test": "^3.0.2",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.0",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.3.3"
+  }
+}
+[debug] [2025-09-24T08:16:44.209Z] Building nodejs source
+[debug] [2025-09-24T08:16:44.209Z] Failed to find version of module node: reached end of search path C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\node_modules
+[info] +  functions: Using node@20 from host. 
+[info] i  functions: You are using a version of firebase-functions SDK (4.9.0) that does not have support for the newest Firebase Extensions features. Please update firebase-functions SDK to >=5.1.0 to use them correctly 
+[debug] [2025-09-24T08:16:44.385Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-09-24T08:16:44.449Z] Found firebase-functions binary at 'C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\node_modules\.bin\firebase-functions'
+[debug] [2025-09-24T08:16:46.194Z] File C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\src\stats.ts changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend\\src\\stats.ts changed, reloading triggers"}}
+[info] Serving at port 8741
+
+[debug] [2025-09-24T08:16:47.209Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2025-09-24T08:16:50.779Z] > [functions] package.json contents: {
+  "name": "walid-backend",
+  "version": "1.0.0",
+  "description": "Backend module for journalisation, statistics and alerts for the administrative dashboard.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "start": "npm run build && npx firebase emulators:start --only functions,firestore",
+    "start-functions-only": "npm run build && npx firebase emulators:start --only functions",
+    "test": "jest --runInBand",
+    "deploy": "npm run build && firebase deploy --only functions,firestore:rules,firestore:indexes"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "firebase-admin": "^11.10.0",
+    "firebase-functions": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.2.5",
+    "@types/node": "^20.5.7",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "firebase-functions-test": "^3.0.2",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.0",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.3.3"
+  }
+}
+[debug] [2025-09-24T08:16:50.780Z] Building nodejs source
+[debug] [2025-09-24T08:16:50.780Z] Failed to find version of module node: reached end of search path C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\node_modules
+[info] +  functions: Using node@20 from host. 
+[info] i  functions: You are using a version of firebase-functions SDK (4.9.0) that does not have support for the newest Firebase Extensions features. Please update firebase-functions SDK to >=5.1.0 to use them correctly 
+[debug] [2025-09-24T08:16:50.781Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-09-24T08:16:50.789Z] Found firebase-functions binary at 'C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\node_modules\.bin\firebase-functions'
+[debug] [2025-09-24T08:16:50.847Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"},"logRequestStatusChange":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.write","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/requests/{requestId}"},"retry":false},"labels":{},"entryPoint":"logRequestStatusChange"},"documentAnalytics":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/documents/{docId}"},"retry":false},"labels":{},"entryPoint":"documentAnalytics"},"requestAnalytics":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.write","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/requests/{requestId}"},"retry":false},"labels":{},"entryPoint":"requestAnalytics"},"alertChecker":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"scheduleTrigger":{"schedule":"every 24 hours","retryConfig":{"retryCount":null,"maxDoublings":null,"maxRetryDuration":null,"maxBackoffDuration":null,"minBackoffDuration":null},"timeZone":null},"labels":{},"entryPoint":"alertChecker"}},"specVersion":"v1alpha1","requiredAPIs":[{"api":"cloudscheduler.googleapis.com","reason":"Needed for scheduled functions."}]}
+[info] Serving at port 8237
+
+[debug] [2025-09-24T08:16:51.318Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"},"logRequestStatusChange":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.write","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/requests/{requestId}"},"retry":false},"labels":{},"entryPoint":"logRequestStatusChange"},"documentAnalytics":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/documents/{docId}"},"retry":false},"labels":{},"entryPoint":"documentAnalytics"},"requestAnalytics":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.write","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/requests/{requestId}"},"retry":false},"labels":{},"entryPoint":"requestAnalytics"},"alertChecker":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"scheduleTrigger":{"schedule":"every 24 hours","retryConfig":{"retryCount":null,"maxDoublings":null,"maxRetryDuration":null,"maxBackoffDuration":null,"minBackoffDuration":null},"timeZone":null},"labels":{},"entryPoint":"alertChecker"}},"specVersion":"v1alpha1","requiredAPIs":[{"api":"cloudscheduler.googleapis.com","reason":"Needed for scheduled functions."}]}
+[info] +  functions: Loaded functions definitions from source: api, logRequestStatusChange, documentAnalytics, requestAnalytics, alertChecker. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api, logRequestStatusChange, documentAnalytics, requestAnalytics, alertChecker."}}
+[info] +  functions: Loaded functions definitions from source: api, logRequestStatusChange, documentAnalytics, requestAnalytics, alertChecker. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api, logRequestStatusChange, documentAnalytics, requestAnalytics, alertChecker."}}
+[debug] [2025-09-24T08:17:17.710Z] File C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\src\logs.ts changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend\\src\\logs.ts changed, reloading triggers"}}
+[debug] [2025-09-24T08:17:18.721Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2025-09-24T08:17:19.600Z] > [functions] package.json contents: {
+  "name": "walid-backend",
+  "version": "1.0.0",
+  "description": "Backend module for journalisation, statistics and alerts for the administrative dashboard.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "start": "npm run build && npx firebase emulators:start --only functions,firestore",
+    "start-functions-only": "npm run build && npx firebase emulators:start --only functions",
+    "test": "jest --runInBand",
+    "deploy": "npm run build && firebase deploy --only functions,firestore:rules,firestore:indexes"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "firebase-admin": "^11.10.0",
+    "firebase-functions": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.2.5",
+    "@types/node": "^20.5.7",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "firebase-functions-test": "^3.0.2",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.0",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.3.3"
+  }
+}
+[debug] [2025-09-24T08:17:19.601Z] Building nodejs source
+[debug] [2025-09-24T08:17:19.601Z] Failed to find version of module node: reached end of search path C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\node_modules
+[info] +  functions: Using node@20 from host. 
+[info] i  functions: You are using a version of firebase-functions SDK (4.9.0) that does not have support for the newest Firebase Extensions features. Please update firebase-functions SDK to >=5.1.0 to use them correctly 
+[debug] [2025-09-24T08:17:19.602Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-09-24T08:17:19.607Z] Found firebase-functions binary at 'C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\node_modules\.bin\firebase-functions'
+[info] Serving at port 8121
+
+[debug] [2025-09-24T08:17:21.963Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"},"logRequestStatusChange":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.write","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/requests/{requestId}"},"retry":false},"labels":{},"entryPoint":"logRequestStatusChange"},"documentAnalytics":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/documents/{docId}"},"retry":false},"labels":{},"entryPoint":"documentAnalytics"},"requestAnalytics":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.write","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/requests/{requestId}"},"retry":false},"labels":{},"entryPoint":"requestAnalytics"},"alertChecker":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"scheduleTrigger":{"schedule":"every 24 hours","retryConfig":{"retryCount":null,"maxDoublings":null,"maxRetryDuration":null,"maxBackoffDuration":null,"minBackoffDuration":null},"timeZone":null},"labels":{},"entryPoint":"alertChecker"}},"specVersion":"v1alpha1","requiredAPIs":[{"api":"cloudscheduler.googleapis.com","reason":"Needed for scheduled functions."}]}
+[info] +  functions: Loaded functions definitions from source: api, logRequestStatusChange, documentAnalytics, requestAnalytics, alertChecker. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api, logRequestStatusChange, documentAnalytics, requestAnalytics, alertChecker."}}
+[debug] [2025-09-24T08:17:44.394Z] File C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\src\alerts.ts changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend\\src\\alerts.ts changed, reloading triggers"}}
+[debug] [2025-09-24T08:17:45.402Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2025-09-24T08:17:46.946Z] > [functions] package.json contents: {
+  "name": "walid-backend",
+  "version": "1.0.0",
+  "description": "Backend module for journalisation, statistics and alerts for the administrative dashboard.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "start": "npm run build && npx firebase emulators:start --only functions,firestore",
+    "start-functions-only": "npm run build && npx firebase emulators:start --only functions",
+    "test": "jest --runInBand",
+    "deploy": "npm run build && firebase deploy --only functions,firestore:rules,firestore:indexes"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "firebase-admin": "^11.10.0",
+    "firebase-functions": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.2.5",
+    "@types/node": "^20.5.7",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "firebase-functions-test": "^3.0.2",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.0",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.3.3"
+  }
+}
+[debug] [2025-09-24T08:17:46.946Z] Building nodejs source
+[debug] [2025-09-24T08:17:46.946Z] Failed to find version of module node: reached end of search path C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\node_modules
+[info] +  functions: Using node@20 from host. 
+[info] i  functions: You are using a version of firebase-functions SDK (4.9.0) that does not have support for the newest Firebase Extensions features. Please update firebase-functions SDK to >=5.1.0 to use them correctly 
+[debug] [2025-09-24T08:17:46.947Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-09-24T08:17:46.952Z] Found firebase-functions binary at 'C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\node_modules\.bin\firebase-functions'
+[info] Serving at port 8007
+
+[debug] [2025-09-24T08:17:47.436Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"},"logRequestStatusChange":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.write","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/requests/{requestId}"},"retry":false},"labels":{},"entryPoint":"logRequestStatusChange"},"documentAnalytics":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/documents/{docId}"},"retry":false},"labels":{},"entryPoint":"documentAnalytics"},"requestAnalytics":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.write","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/requests/{requestId}"},"retry":false},"labels":{},"entryPoint":"requestAnalytics"},"alertChecker":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"scheduleTrigger":{"schedule":"every 24 hours","retryConfig":{"retryCount":null,"maxDoublings":null,"maxRetryDuration":null,"maxBackoffDuration":null,"minBackoffDuration":null},"timeZone":null},"labels":{},"entryPoint":"alertChecker"}},"specVersion":"v1alpha1","requiredAPIs":[{"api":"cloudscheduler.googleapis.com","reason":"Needed for scheduled functions."}]}
+[info] +  functions: Loaded functions definitions from source: api, logRequestStatusChange, documentAnalytics, requestAnalytics, alertChecker. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api, logRequestStatusChange, documentAnalytics, requestAnalytics, alertChecker."}}
+[debug] [2025-09-24T08:19:38.932Z] File C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\src\stats.ts changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend\\src\\stats.ts changed, reloading triggers"}}
+[debug] [2025-09-24T08:19:38.938Z] File C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\src\logs.ts changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend\\src\\logs.ts changed, reloading triggers"}}
+[debug] [2025-09-24T08:19:39.003Z] File C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\src\alerts.ts changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend\\src\\alerts.ts changed, reloading triggers"}}
+[debug] [2025-09-24T08:19:40.009Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2025-09-24T08:19:41.570Z] > [functions] package.json contents: {
+  "name": "walid-backend",
+  "version": "1.0.0",
+  "description": "Backend module for journalisation, statistics and alerts for the administrative dashboard.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "start": "npm run build && npx firebase emulators:start --only functions,firestore",
+    "start-functions-only": "npm run build && npx firebase emulators:start --only functions",
+    "test": "jest --runInBand",
+    "deploy": "npm run build && firebase deploy --only functions,firestore:rules,firestore:indexes"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "firebase-admin": "^11.10.0",
+    "firebase-functions": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.2.5",
+    "@types/node": "^20.5.7",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "firebase-functions-test": "^3.0.2",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.0",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.3.3"
+  }
+}
+[debug] [2025-09-24T08:19:41.570Z] Building nodejs source
+[debug] [2025-09-24T08:19:41.570Z] Failed to find version of module node: reached end of search path C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\node_modules
+[info] +  functions: Using node@20 from host. 
+[info] i  functions: You are using a version of firebase-functions SDK (4.9.0) that does not have support for the newest Firebase Extensions features. Please update firebase-functions SDK to >=5.1.0 to use them correctly 
+[debug] [2025-09-24T08:19:41.571Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-09-24T08:19:41.576Z] Found firebase-functions binary at 'C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\node_modules\.bin\firebase-functions'
+[info] Serving at port 8425
+
+[debug] [2025-09-24T08:19:42.035Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"},"logRequestStatusChange":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.write","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/requests/{requestId}"},"retry":false},"labels":{},"entryPoint":"logRequestStatusChange"},"documentAnalytics":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/documents/{docId}"},"retry":false},"labels":{},"entryPoint":"documentAnalytics"},"requestAnalytics":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.write","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/requests/{requestId}"},"retry":false},"labels":{},"entryPoint":"requestAnalytics"},"alertChecker":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"scheduleTrigger":{"schedule":"every 24 hours","retryConfig":{"retryCount":null,"maxDoublings":null,"maxRetryDuration":null,"maxBackoffDuration":null,"minBackoffDuration":null},"timeZone":null},"labels":{},"entryPoint":"alertChecker"}},"specVersion":"v1alpha1","requiredAPIs":[{"api":"cloudscheduler.googleapis.com","reason":"Needed for scheduled functions."}]}
+[info] +  functions: Loaded functions definitions from source: api, logRequestStatusChange, documentAnalytics, requestAnalytics, alertChecker. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api, logRequestStatusChange, documentAnalytics, requestAnalytics, alertChecker."}}
+[debug] [2025-09-24T08:25:19.086Z] File C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\src\index.ts changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend\\src\\index.ts changed, reloading triggers"}}
+[debug] [2025-09-24T08:25:20.095Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2025-09-24T08:25:22.570Z] > [functions] package.json contents: {
+  "name": "walid-backend",
+  "version": "1.0.0",
+  "description": "Backend module for journalisation, statistics and alerts for the administrative dashboard.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "start": "npm run build && npx firebase emulators:start --only functions,firestore",
+    "start-functions-only": "npm run build && npx firebase emulators:start --only functions",
+    "test": "jest --runInBand",
+    "deploy": "npm run build && firebase deploy --only functions,firestore:rules,firestore:indexes"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "firebase-admin": "^11.10.0",
+    "firebase-functions": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.2.5",
+    "@types/node": "^20.5.7",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "firebase-functions-test": "^3.0.2",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.0",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.3.3"
+  }
+}
+[debug] [2025-09-24T08:25:22.570Z] Building nodejs source
+[debug] [2025-09-24T08:25:22.570Z] Failed to find version of module node: reached end of search path C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\node_modules
+[info] +  functions: Using node@20 from host. 
+[info] i  functions: You are using a version of firebase-functions SDK (4.9.0) that does not have support for the newest Firebase Extensions features. Please update firebase-functions SDK to >=5.1.0 to use them correctly 
+[debug] [2025-09-24T08:25:22.571Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-09-24T08:25:22.576Z] Found firebase-functions binary at 'C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\node_modules\.bin\firebase-functions'
+[info] Serving at port 8510
+
+[debug] [2025-09-24T08:25:23.002Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"},"logRequestStatusChange":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.write","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/requests/{requestId}"},"retry":false},"labels":{},"entryPoint":"logRequestStatusChange"},"documentAnalytics":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/documents/{docId}"},"retry":false},"labels":{},"entryPoint":"documentAnalytics"},"requestAnalytics":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.write","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/requests/{requestId}"},"retry":false},"labels":{},"entryPoint":"requestAnalytics"},"alertChecker":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"scheduleTrigger":{"schedule":"every 24 hours","retryConfig":{"retryCount":null,"maxDoublings":null,"maxRetryDuration":null,"maxBackoffDuration":null,"minBackoffDuration":null},"timeZone":null},"labels":{},"entryPoint":"alertChecker"}},"specVersion":"v1alpha1","requiredAPIs":[{"api":"cloudscheduler.googleapis.com","reason":"Needed for scheduled functions."}]}
+[info] +  functions: Loaded functions definitions from source: api, logRequestStatusChange, documentAnalytics, requestAnalytics, alertChecker. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api, logRequestStatusChange, documentAnalytics, requestAnalytics, alertChecker."}}
+[debug] [2025-09-24T08:26:37.558Z] [work-queue] {"queuedWork":["/walid-backend/us-central1/api/test-2025-09-24T08:26:37.558Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-24T08:26:37.558Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/walid-backend/us-central1/api/test-2025-09-24T08:26:37.558Z"],"workRunningCount":1}
+[debug] [2025-09-24T08:26:37.559Z] Accepted request GET /walid-backend/us-central1/api/test?id=b3fbcce6-d782-40d5-9aa2-64a5b0738167&vscodeBrowserReqId=1758702397538 --> us-central1-api
+[debug] [2025-09-24T08:26:37.565Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-09-24T08:26:37.565Z] [functions] Got req.url=/walid-backend/us-central1/api/test?id=b3fbcce6-d782-40d5-9aa2-64a5b0738167&vscodeBrowserReqId=1758702397538, mapping to path=/test?id=b3fbcce6-d782-40d5-9aa2-64a5b0738167&vscodeBrowserReqId=1758702397538 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/walid-backend/us-central1/api/test?id=b3fbcce6-d782-40d5-9aa2-64a5b0738167&vscodeBrowserReqId=1758702397538, mapping to path=/test?id=b3fbcce6-d782-40d5-9aa2-64a5b0738167&vscodeBrowserReqId=1758702397538"}}
+[debug] [2025-09-24T08:26:37.787Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2025-09-24T08:26:37.788Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2025-09-24T08:26:41.386Z] [runtime-status] [18764] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.1","resolution":"C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [18764] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"C:\\\\Users\\\\SetupGame\\\\Desktop\\\\Work\\\\Nouveau dossier\\\\walid_backend\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2025-09-24T08:26:41.387Z] [runtime-status] [18764] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.9.0","resolution":"C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [18764] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.9.0\",\"resolution\":\"C:\\\\Users\\\\SetupGame\\\\Desktop\\\\Work\\\\Nouveau dossier\\\\walid_backend\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2025-09-24T08:26:41.387Z] [runtime-status] [18764] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [18764] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2025-09-24T08:26:41.388Z] [runtime-status] [18764] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.9.0","resolution":"C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [18764] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.9.0\",\"resolution\":\"C:\\\\Users\\\\SetupGame\\\\Desktop\\\\Work\\\\Nouveau dossier\\\\walid_backend\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2025-09-24T08:26:41.584Z] [runtime-status] [18764] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [18764] Checked functions.config() {\"config\":{}}"}}
+[debug] [2025-09-24T08:26:41.584Z] [runtime-status] [18764] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.9.0","resolution":"C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend\\node_modules\\firebase-functions\\lib\\v1\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [18764] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.9.0\",\"resolution\":\"C:\\\\Users\\\\SetupGame\\\\Desktop\\\\Work\\\\Nouveau dossier\\\\walid_backend\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}}"}}
+[debug] [2025-09-24T08:26:41.585Z] [runtime-status] [18764] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.9.0","resolution":"C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [18764] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.9.0\",\"resolution\":\"C:\\\\Users\\\\SetupGame\\\\Desktop\\\\Work\\\\Nouveau dossier\\\\walid_backend\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2025-09-24T08:26:41.586Z] [runtime-status] [18764] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.1","resolution":"C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [18764] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"C:\\\\Users\\\\SetupGame\\\\Desktop\\\\Work\\\\Nouveau dossier\\\\walid_backend\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2025-09-24T08:26:41.588Z] [runtime-status] [18764] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.9.0","resolution":"C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [18764] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.9.0\",\"resolution\":\"C:\\\\Users\\\\SetupGame\\\\Desktop\\\\Work\\\\Nouveau dossier\\\\walid_backend\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2025-09-24T08:26:41.588Z] [runtime-status] [18764] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.11.1","resolution":"C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [18764] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"C:\\\\Users\\\\SetupGame\\\\Desktop\\\\Work\\\\Nouveau dossier\\\\walid_backend\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2025-09-24T08:26:41.708Z] [runtime-status] [18764] initializeApp(DEFAULT) {"storageBucket":"walid-backend.firebasestorage.app","projectId":"walid-backend"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [18764] initializeApp(DEFAULT) {\"storageBucket\":\"walid-backend.firebasestorage.app\",\"projectId\":\"walid-backend\"}"}}
+[debug] [2025-09-24T08:26:41.719Z] [runtime-status] [18764] Functions runtime initialized. {"cwd":"C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend","node_version":"20.17.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [18764] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\SetupGame\\\\Desktop\\\\Work\\\\Nouveau dossier\\\\walid_backend\",\"node_version\":\"20.17.0\"}"}}
+[debug] [2025-09-24T08:26:41.720Z] [runtime-status] [18764] Listening to port: \\?\pipe\fire_emu_904475ce6632789a {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [18764] Listening to port: \\\\?\\pipe\\fire_emu_904475ce6632789a"}}
+[debug] [2025-09-24T08:26:41.740Z] [worker-us-central1-api-59df6f91-f5b4-43cd-863d-d492bdbff2c4]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-59df6f91-f5b4-43cd-863d-d492bdbff2c4]: IDLE"}}
+[debug] [2025-09-24T08:26:41.740Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2025-09-24T08:26:41.741Z] [worker-us-central1-api-59df6f91-f5b4-43cd-863d-d492bdbff2c4]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-59df6f91-f5b4-43cd-863d-d492bdbff2c4]: BUSY"}}
+[debug] [2025-09-24T08:26:41.746Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 5.0006ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 5.0006ms"}}
+[debug] [2025-09-24T08:26:41.746Z] [worker-us-central1-api-59df6f91-f5b4-43cd-863d-d492bdbff2c4]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-59df6f91-f5b4-43cd-863d-d492bdbff2c4]: IDLE"}}
+[debug] [2025-09-24T08:26:41.746Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-09-24T08:26:41.746Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-09-24T08:26:41.746Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2025-09-24T08:27:05.892Z] File C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\src\index.ts changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend\\src\\index.ts changed, reloading triggers"}}
+[debug] [2025-09-24T08:27:06.894Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2025-09-24T08:27:07.600Z] > [functions] package.json contents: {
+  "name": "walid-backend",
+  "version": "1.0.0",
+  "description": "Backend module for journalisation, statistics and alerts for the administrative dashboard.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "start": "npm run build && npx firebase emulators:start --only functions,firestore",
+    "start-functions-only": "npm run build && npx firebase emulators:start --only functions",
+    "test": "jest --runInBand",
+    "deploy": "npm run build && firebase deploy --only functions,firestore:rules,firestore:indexes"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "firebase-admin": "^11.10.0",
+    "firebase-functions": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.2.5",
+    "@types/node": "^20.5.7",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "firebase-functions-test": "^3.0.2",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.0",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.3.3"
+  }
+}
+[debug] [2025-09-24T08:27:07.600Z] Building nodejs source
+[debug] [2025-09-24T08:27:07.600Z] Failed to find version of module node: reached end of search path C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\node_modules
+[info] +  functions: Using node@20 from host. 
+[info] i  functions: You are using a version of firebase-functions SDK (4.9.0) that does not have support for the newest Firebase Extensions features. Please update firebase-functions SDK to >=5.1.0 to use them correctly 
+[debug] [2025-09-24T08:27:07.601Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-09-24T08:27:07.606Z] Found firebase-functions binary at 'C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\node_modules\.bin\firebase-functions'
+[info] Serving at port 8559
+
+[debug] [2025-09-24T08:27:08.046Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"},"logRequestStatusChange":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.write","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/requests/{requestId}"},"retry":false},"labels":{},"entryPoint":"logRequestStatusChange"},"documentAnalytics":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/documents/{docId}"},"retry":false},"labels":{},"entryPoint":"documentAnalytics"},"requestAnalytics":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.write","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/requests/{requestId}"},"retry":false},"labels":{},"entryPoint":"requestAnalytics"},"alertChecker":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"scheduleTrigger":{"schedule":"every 24 hours","retryConfig":{"retryCount":null,"maxDoublings":null,"maxRetryDuration":null,"maxBackoffDuration":null,"minBackoffDuration":null},"timeZone":null},"labels":{},"entryPoint":"alertChecker"}},"specVersion":"v1alpha1","requiredAPIs":[{"api":"cloudscheduler.googleapis.com","reason":"Needed for scheduled functions."}]}
+[info] +  functions: Loaded functions definitions from source: api, logRequestStatusChange, documentAnalytics, requestAnalytics, alertChecker. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api, logRequestStatusChange, documentAnalytics, requestAnalytics, alertChecker."}}
+[debug] [2025-09-24T08:27:13.070Z] [worker-pool] Shutting down IDLE worker (us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-api)"}}
+[debug] [2025-09-24T08:27:13.070Z] [worker-us-central1-api-59df6f91-f5b4-43cd-863d-d492bdbff2c4]: FINISHING {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-59df6f91-f5b4-43cd-863d-d492bdbff2c4]: FINISHING"}}
+[debug] [2025-09-24T08:27:13.082Z] [worker-us-central1-api-59df6f91-f5b4-43cd-863d-d492bdbff2c4]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-59df6f91-f5b4-43cd-863d-d492bdbff2c4]: exited"}}
+[debug] [2025-09-24T08:27:13.082Z] [worker-us-central1-api-59df6f91-f5b4-43cd-863d-d492bdbff2c4]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-59df6f91-f5b4-43cd-863d-d492bdbff2c4]: FINISHED"}}
+[debug] [2025-09-24T08:29:30.426Z] File C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\src\stats.ts changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend\\src\\stats.ts changed, reloading triggers"}}
+[debug] [2025-09-24T08:29:31.442Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2025-09-24T08:29:35.033Z] > [functions] package.json contents: {
+  "name": "walid-backend",
+  "version": "1.0.0",
+  "description": "Backend module for journalisation, statistics and alerts for the administrative dashboard.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "start": "npm run build && npx firebase emulators:start --only functions,firestore",
+    "start-functions-only": "npm run build && npx firebase emulators:start --only functions",
+    "test": "jest --runInBand",
+    "deploy": "npm run build && firebase deploy --only functions,firestore:rules,firestore:indexes"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "firebase-admin": "^11.10.0",
+    "firebase-functions": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.2.5",
+    "@types/node": "^20.5.7",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "firebase-functions-test": "^3.0.2",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.0",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.3.3"
+  }
+}
+[debug] [2025-09-24T08:29:35.033Z] Building nodejs source
+[debug] [2025-09-24T08:29:35.033Z] Failed to find version of module node: reached end of search path C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\node_modules
+[info] +  functions: Using node@20 from host. 
+[info] i  functions: You are using a version of firebase-functions SDK (4.9.0) that does not have support for the newest Firebase Extensions features. Please update firebase-functions SDK to >=5.1.0 to use them correctly 
+[debug] [2025-09-24T08:29:35.034Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-09-24T08:29:35.038Z] Found firebase-functions binary at 'C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\node_modules\.bin\firebase-functions'
+[info] Serving at port 8087
+
+[debug] [2025-09-24T08:29:35.421Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"},"logRequestStatusChange":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.write","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/requests/{requestId}"},"retry":false},"labels":{},"entryPoint":"logRequestStatusChange"},"documentAnalytics":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/documents/{docId}"},"retry":false},"labels":{},"entryPoint":"documentAnalytics"},"requestAnalytics":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.write","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/requests/{requestId}"},"retry":false},"labels":{},"entryPoint":"requestAnalytics"},"alertChecker":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"scheduleTrigger":{"schedule":"every 24 hours","retryConfig":{"retryCount":null,"maxDoublings":null,"maxRetryDuration":null,"maxBackoffDuration":null,"minBackoffDuration":null},"timeZone":null},"labels":{},"entryPoint":"alertChecker"}},"specVersion":"v1alpha1","requiredAPIs":[{"api":"cloudscheduler.googleapis.com","reason":"Needed for scheduled functions."}]}
+[info] +  functions: Loaded functions definitions from source: api, logRequestStatusChange, documentAnalytics, requestAnalytics, alertChecker. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api, logRequestStatusChange, documentAnalytics, requestAnalytics, alertChecker."}}
+[debug] [2025-09-24T08:29:47.384Z] File C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\src\logs.ts changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend\\src\\logs.ts changed, reloading triggers"}}
+[debug] [2025-09-24T08:29:48.384Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2025-09-24T08:29:51.901Z] > [functions] package.json contents: {
+  "name": "walid-backend",
+  "version": "1.0.0",
+  "description": "Backend module for journalisation, statistics and alerts for the administrative dashboard.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "start": "npm run build && npx firebase emulators:start --only functions,firestore",
+    "start-functions-only": "npm run build && npx firebase emulators:start --only functions",
+    "test": "jest --runInBand",
+    "deploy": "npm run build && firebase deploy --only functions,firestore:rules,firestore:indexes"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "firebase-admin": "^11.10.0",
+    "firebase-functions": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.2.5",
+    "@types/node": "^20.5.7",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "firebase-functions-test": "^3.0.2",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.0",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.3.3"
+  }
+}
+[debug] [2025-09-24T08:29:51.901Z] Building nodejs source
+[debug] [2025-09-24T08:29:51.901Z] Failed to find version of module node: reached end of search path C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\node_modules
+[info] +  functions: Using node@20 from host. 
+[info] i  functions: You are using a version of firebase-functions SDK (4.9.0) that does not have support for the newest Firebase Extensions features. Please update firebase-functions SDK to >=5.1.0 to use them correctly 
+[debug] [2025-09-24T08:29:51.902Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-09-24T08:29:51.907Z] Found firebase-functions binary at 'C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\node_modules\.bin\firebase-functions'
+[info] Serving at port 8742
+
+[debug] [2025-09-24T08:29:52.287Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"},"logRequestStatusChange":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.write","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/requests/{requestId}"},"retry":false},"labels":{},"entryPoint":"logRequestStatusChange"},"documentAnalytics":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/documents/{docId}"},"retry":false},"labels":{},"entryPoint":"documentAnalytics"},"requestAnalytics":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.write","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/requests/{requestId}"},"retry":false},"labels":{},"entryPoint":"requestAnalytics"},"alertChecker":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"scheduleTrigger":{"schedule":"every 24 hours","retryConfig":{"retryCount":null,"maxDoublings":null,"maxRetryDuration":null,"maxBackoffDuration":null,"minBackoffDuration":null},"timeZone":null},"labels":{},"entryPoint":"alertChecker"}},"specVersion":"v1alpha1","requiredAPIs":[{"api":"cloudscheduler.googleapis.com","reason":"Needed for scheduled functions."}]}
+[info] +  functions: Loaded functions definitions from source: api, logRequestStatusChange, documentAnalytics, requestAnalytics, alertChecker. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api, logRequestStatusChange, documentAnalytics, requestAnalytics, alertChecker."}}
+[debug] [2025-09-24T08:30:00.616Z] File C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\src\alerts.ts changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend\\src\\alerts.ts changed, reloading triggers"}}
+[debug] [2025-09-24T08:30:01.631Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2025-09-24T08:30:05.287Z] > [functions] package.json contents: {
+  "name": "walid-backend",
+  "version": "1.0.0",
+  "description": "Backend module for journalisation, statistics and alerts for the administrative dashboard.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "start": "npm run build && npx firebase emulators:start --only functions,firestore",
+    "start-functions-only": "npm run build && npx firebase emulators:start --only functions",
+    "test": "jest --runInBand",
+    "deploy": "npm run build && firebase deploy --only functions,firestore:rules,firestore:indexes"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "firebase-admin": "^11.10.0",
+    "firebase-functions": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.2.5",
+    "@types/node": "^20.5.7",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "firebase-functions-test": "^3.0.2",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.0",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.3.3"
+  }
+}
+[debug] [2025-09-24T08:30:05.287Z] Building nodejs source
+[debug] [2025-09-24T08:30:05.287Z] Failed to find version of module node: reached end of search path C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\node_modules
+[info] +  functions: Using node@20 from host. 
+[info] i  functions: You are using a version of firebase-functions SDK (4.9.0) that does not have support for the newest Firebase Extensions features. Please update firebase-functions SDK to >=5.1.0 to use them correctly 
+[debug] [2025-09-24T08:30:05.288Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-09-24T08:30:05.293Z] Found firebase-functions binary at 'C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\node_modules\.bin\firebase-functions'
+[info] Serving at port 8908
+
+[debug] [2025-09-24T08:30:05.680Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"},"logRequestStatusChange":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.write","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/requests/{requestId}"},"retry":false},"labels":{},"entryPoint":"logRequestStatusChange"},"documentAnalytics":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/documents/{docId}"},"retry":false},"labels":{},"entryPoint":"documentAnalytics"},"requestAnalytics":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.write","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/requests/{requestId}"},"retry":false},"labels":{},"entryPoint":"requestAnalytics"},"alertChecker":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"scheduleTrigger":{"schedule":"every 24 hours","retryConfig":{"retryCount":null,"maxDoublings":null,"maxRetryDuration":null,"maxBackoffDuration":null,"minBackoffDuration":null},"timeZone":null},"labels":{},"entryPoint":"alertChecker"}},"specVersion":"v1alpha1","requiredAPIs":[{"api":"cloudscheduler.googleapis.com","reason":"Needed for scheduled functions."}]}
+[info] +  functions: Loaded functions definitions from source: api, logRequestStatusChange, documentAnalytics, requestAnalytics, alertChecker. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api, logRequestStatusChange, documentAnalytics, requestAnalytics, alertChecker."}}
+[debug] [2025-09-24T09:12:57.230Z] File C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\src\logs.ts changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend\\src\\logs.ts changed, reloading triggers"}}
+[debug] [2025-09-24T09:12:57.233Z] File C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\src\alerts.ts changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend\\src\\alerts.ts changed, reloading triggers"}}
+[debug] [2025-09-24T09:12:57.233Z] File C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\src\stats.ts changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\SetupGame\\Desktop\\Work\\Nouveau dossier\\walid_backend\\src\\stats.ts changed, reloading triggers"}}
+[debug] [2025-09-24T09:12:58.236Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2025-09-24T09:12:58.998Z] > [functions] package.json contents: {
+  "name": "walid-backend",
+  "version": "1.0.0",
+  "description": "Backend module for journalisation, statistics and alerts for the administrative dashboard.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts",
+    "start": "npm run build && npx firebase emulators:start --only functions,firestore",
+    "start-functions-only": "npm run build && npx firebase emulators:start --only functions",
+    "test": "jest --runInBand",
+    "deploy": "npm run build && firebase deploy --only functions,firestore:rules,firestore:indexes"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "firebase-admin": "^11.10.0",
+    "firebase-functions": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.2.5",
+    "@types/node": "^20.5.7",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "firebase-functions-test": "^3.0.2",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.0",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.3.3"
+  }
+}
+[debug] [2025-09-24T09:12:58.998Z] Building nodejs source
+[debug] [2025-09-24T09:12:58.998Z] Failed to find version of module node: reached end of search path C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\node_modules
+[info] +  functions: Using node@20 from host. 
+[info] i  functions: You are using a version of firebase-functions SDK (4.9.0) that does not have support for the newest Firebase Extensions features. Please update firebase-functions SDK to >=5.1.0 to use them correctly 
+[debug] [2025-09-24T09:12:58.999Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-09-24T09:12:59.004Z] Found firebase-functions binary at 'C:\Users\SetupGame\Desktop\Work\Nouveau dossier\walid_backend\node_modules\.bin\firebase-functions'
+[info] Serving at port 8657
+
+[debug] [2025-09-24T09:12:59.505Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"},"logRequestStatusChange":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.write","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/requests/{requestId}"},"retry":false},"labels":{},"entryPoint":"logRequestStatusChange"},"documentAnalytics":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/documents/{docId}"},"retry":false},"labels":{},"entryPoint":"documentAnalytics"},"requestAnalytics":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.write","eventFilters":{"resource":"projects/walid-backend/databases/(default)/documents/requests/{requestId}"},"retry":false},"labels":{},"entryPoint":"requestAnalytics"},"alertChecker":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"scheduleTrigger":{"schedule":"every 24 hours","retryConfig":{"retryCount":null,"maxDoublings":null,"maxRetryDuration":null,"maxBackoffDuration":null,"minBackoffDuration":null},"timeZone":null},"labels":{},"entryPoint":"alertChecker"}},"specVersion":"v1alpha1","requiredAPIs":[{"api":"cloudscheduler.googleapis.com","reason":"Needed for scheduled functions."}]}
+[info] +  functions: Loaded functions definitions from source: api, logRequestStatusChange, documentAnalytics, requestAnalytics, alertChecker. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api, logRequestStatusChange, documentAnalytics, requestAnalytics, alertChecker."}}

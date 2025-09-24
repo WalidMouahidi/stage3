@@ -6,7 +6,7 @@
 const admin = require('firebase-admin');
 
 // Configuration pour l'émulateur
-process.env.FIRESTORE_EMULATOR_HOST = '127.0.0.1:8080';
+process.env.FIRESTORE_EMULATOR_HOST = '127.0.0.1:8090';
 process.env.GCLOUD_PROJECT = 'walid-backend';
 
 console.log('🔧 Configuration émulateur Firestore :', process.env.FIRESTORE_EMULATOR_HOST);

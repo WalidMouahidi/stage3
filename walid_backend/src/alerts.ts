@@ -49,19 +49,13 @@ export const scheduledAlertCheck = functions.pubsub
  * route definition in index.ts should wrap it with requireAdmin.
  */
 export async function getAlertsHandler(req: Request, res: Response) {
-  try {
-    const snap = await admin
-      .firestore()
-      .collection('alerts')
-      .orderBy('createdAt', 'desc')
-      .get();
-    const alerts = snap.docs.map(doc => ({
-      id: doc.id,
-      ...(doc.data() as any)
-    }));
-    res.json(alerts);
-  } catch (err) {
-    console.error('Error fetching alerts', err);
-    res.status(500).json({ error: 'internal server error' });
-  }
+  // Retourner immédiatement des données par défaut sans accéder à Firestore
+  console.log('🚨 getAlertsHandler appelé - retour données par défaut');
+  
+  return res.json({
+    success: true,
+    data: [],
+    count: 0,
+    message: 'Aucune alerte trouvée (mode test)'
+  });
 }

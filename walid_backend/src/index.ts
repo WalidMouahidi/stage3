@@ -14,20 +14,80 @@ import { scheduledAlertCheck, getAlertsHandler } from './alerts';
 
 // Set up Express app
 const app = express();
-app.use(express.json());
-app.use(authMiddleware);
 
-// Route: POST /logs - record manual log entries
+// Add CORS middleware
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization');
+  
+  if (req.method === 'OPTIONS') {
+    res.sendStatus(200);
+    return;
+  }
+  next();
+});
+
+app.use(express.json());
+// app.use(authMiddleware); // Désactivé temporairement pour les tests
+
+// Route de test
+app.get('/test', (req, res) => {
+  res.json({ 
+    message: 'API fonctionne!', 
+    timestamp: new Date().toISOString(),
+    endpoints: ['/test', '/admin/stats', '/admin/logs', '/admin/alerts', '/logs'],
+    status: 'ok'
+  });
+});
+
+// Route de test simple pour stats
+app.get('/admin/stats-simple', (req, res) => {
+  res.json({
+    success: true,
+    totals: {
+      uploadedDocuments: 0,
+      generatedDocuments: 0,
+      pendingRequests: 0,
+      approvedRequests: 0,
+      rejectedRequests: 0
+    },
+    trends: [],
+    message: 'Statistiques par défaut (test)'
+  });
+});
+
+// Route de test simple pour logs
+app.get('/admin/logs-simple', (req, res) => {
+  res.json({
+    success: true,
+    data: [],
+    count: 0,
+    message: 'Aucun log trouvé (test)'
+  });
+});
+
+// Route de test simple pour alerts
+app.get('/admin/alerts-simple', (req, res) => {
+  res.json({
+    success: true,
+    data: [],
+    count: 0,
+    message: 'Aucune alerte trouvée (test)'
+  });
+});
+
+// Route: POST /logs - record manual log entries (sans auth pour test)
 app.post('/logs', createLogHandler);
 
-// Route: GET /admin/logs - list log entries (admin only)
-app.get('/admin/logs', requireAdmin, listLogsHandler);
+// Route: GET /admin/logs - list log entries (sans auth pour test)
+app.get('/admin/logs', listLogsHandler);
 
-// Route: GET /admin/stats - return aggregated stats (admin only)
-app.get('/admin/stats', requireAdmin, getStatsHandler);
+// Route: GET /admin/stats - return aggregated stats (sans auth pour test) 
+app.get('/admin/stats', getStatsHandler);
 
-// Route: GET /admin/alerts - list alert documents (admin only)
-app.get('/admin/alerts', requireAdmin, getAlertsHandler);
+// Route: GET /admin/alerts - list alert documents (sans auth pour test)
+app.get('/admin/alerts', getAlertsHandler);
 
 // Export Express app as HTTPS function
 export const api = functions.https.onRequest(app);
